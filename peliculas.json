@@ -3,53 +3,65 @@
     {
       "id": 2,
       "nombre": "Pulp Fiction",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUTnNVTW8xT3y97qIZ8op9FNtIXzmp6TPDcC0qpqTvvKNV9YT",
       "director": "Tarantino",
       "clasificacion": "Acción"
     },
     {
       "id": 4,
       "nombre": "300",
+      "imagen": "https://pics.filmaffinity.com/300-274692460-large.jpg",
       "director": "Zack Snyder",
       "clasificacion": "Acción"
     },
     {
       "id": 5,
       "nombre": "El silencio de los corderos",
+      "imagen": "https://r2.abcimg.es/resizer/resizer.php?imagen=https%3A%2F%2Fstatic3.abc.es%2Fmedia%2Fpeliculas%2F000%2F003%2F095%2Fel-silencio-de-los-corderos-1.jpg&nuevoancho=690&medio=abc",
       "director": "Jonathan Demme",
       "clasificacion": "Drama"
     },
     {
       "id": 6,
       "nombre": "Forrest Gump",
+      "imagen": "https://pics.filmaffinity.com/Forrest_Gump-212765827-mmed.jpg",
       "director": "Robert Zemeckis",
       "clasificacion": "Comedia"
     },
     {
       "id": 7,
       "nombre": "Las Hurdes",
+      "imagen": "https://pics.filmaffinity.com/Las_Hurdes_Tierra_sin_pan-618902623-mmed.jpg",
       "director": "Luis Buñuel",
       "clasificacion": "Documental"
     },
     {
-      "id": 8
+      "id": 8,
+      "nombre": "Malditos Bastardos",
+      "imagen": "https://pics.filmaffinity.com/Malditos_bastardos-976286054-large.jpg",
+      "director": "Tarantino",
+      "clasificacion": "Acción"
     },
     {
+      "id": 9,
       "nombre": "El sexto sentido",
+      "imagen": "https://pics.filmaffinity.com/El_sexto_sentido-351070748-large.jpg",
       "director": "M. Night Shyamalan",
-      "clasificacion": "Drama",
-      "id": 9
+      "clasificacion": "Drama"
     },
     {
-      "nombre": "Sagan",
-      "director": "M. Night Shyamalan",
-      "clasificacion": "Drama",
-      "id": 10
+      "id": 10,
+      "nombre": "Origen",
+      "imagen": "https://es.web.img3.acsta.net/medias/nmedia/18/72/41/74/20198901.jpg",
+      "director": "Christopher Noland",
+      "clasificacion": "Acción"
     },
     {
-      "nombre": "Batman",
-      "director": "M. Night Shyamalan",
-      "clasificacion": "Drama",
-      "id": 11
+      "id": 11,
+      "nombre": "Jocker",
+      "imagen": "https://pics.filmaffinity.com/Joker-118854213-large.jpg",
+      "director": "Todd Phillips",
+      "clasificacion": "Drama"
     }
   ],
   "clasificaciones": [
