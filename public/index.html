@@ -16,49 +16,56 @@
       <h1 class="d-flex justify-content-center text-danger my-4">
         Favorite Movies
       </h1>
-      <form id="add-pelicula-form" class="row g-3">
-        <h3 class="d-flex justify-content-center">
-          Añade tu película favorita a la lista
-        </h3>
-        <input
-          type="text"
-          name="nombre"
-          id="nombre"
-          placeholder="Escribe el nombre de la película"
-          class="input-text form-control w-20"
-        />
-        <input
-          type="text"
-          name="imagen"
-          id="imagen"
-          placeholder="Escribe la url de la imagen de la película"
-          class="input-text form-control"
-        />
-        <input
-          type="text"
-          name="director"
-          id="director"
-          placeholder="Escribe el director de la imagen de la película"
-          class="input-text form-control"
-        />
-        <input
-          type="text"
-          name="clasificacion"
-          id="clasificacion"
-          placeholder="Escribe la clasificación de la película"
-          class="input-text form-control"
-        />
-        <input
-          type="submit"
-          name="submit"
-          value="Añadir película"
-          class="submit btn btn-danger mb-3 my-2"
-        />
-      </form>
+      <div class="d-flex justify-content-center badge bg-light text-dark">
+        <form
+          id="add-pelicula-form"
+          class="row g-3 px-5 mx-4 d-flex justify-center w-50"
+        >
+          <h3 class="d-flex justify-content-center my-5">
+            Añade tu película favorita a la lista
+          </h3>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Escribe el nombre de la película"
+            class="input-text form-control"
+          />
+          <input
+            type="text"
+            name="imagen"
+            id="imagen"
+            placeholder="Escribe la url de la imagen de la película"
+            class="input-text form-control"
+          />
+          <input
+            type="text"
+            name="director"
+            id="director"
+            placeholder="Escribe el director de la imagen de la película"
+            class="input-text form-control"
+          />
+          <input
+            type="text"
+            name="clasificacion"
+            id="clasificacion"
+            placeholder="Escribe la clasificación de la película"
+            class="input-text form-control"
+          />
+          <div class="d-flex justify-content-center">
+            <input
+              type="submit"
+              name="submit"
+              value="Añadir película"
+              class="submit btn btn-danger mb-3 my-2 w-25"
+            />
+          </div>
+        </form>
+      </div>
     </header>
     <div
       id="peliculas-container"
-      class="row row-cols-1 row-cols-md-2 g-4"
+      class="row row-cols-1 row-cols-md-2 g-4 mx-0"
     ></div>
     <script src="../src/script.js"></script>
   </body>

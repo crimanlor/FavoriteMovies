@@ -12,7 +12,7 @@ fetch(apiPeliculas)
     peliculaData.forEach(function (pelicula) {
       allPeliculas = peliculaData;
       peliculaCollection.innerHTML += `<div class="card" style="width: 18rem;" id=${pelicula.id}>
-      <img src="${pelicula.imagen}" class="card-img-top" alt="pelicula imagen">
+      <img src="${pelicula.imagen}" class="card-img-top" style="height: 25rem" alt="pelicula imagen">
       <div class="card-body card text-center">
       <h5 class="card-title">${pelicula.nombre}</h5>
       <p class="card-text">Director: ${pelicula.director}</p>
@@ -39,19 +39,6 @@ peliculaForm.addEventListener("submit", (e) => {
       clasificacion: `${event.target.clasificacion.value}`,
     }),
   });
-  // .then((response) => response.json())
-  // .then((pelicula) => {
-  //   peliculaCollection.innerHTML += `<div class="card" style="width: 18rem;" id=${pelicula.id}>
-  //       <img src="${pelicula.imagen}" class="card-img-top" alt="pelicula imagen">
-  //       <div class="card-body card text-center">
-  //       <h5 class="card-title">${pelicula.nombre}</h5>
-  //       <p class="card-text">Director: ${pelicula.director}</p>
-  //       <h6 class="card-subtitle mb-2 text-muted">${pelicula.clasificacion}</h6>
-  //       <button id ="edit-${pelicula.id}" data-id="${pelicula.id}" data-action="edit" class="btn btn-outline-danger my-2">Editar</button>
-  //       <button id="delete-${pelicula.id}" data-id="${pelicula.id}" data-action="delete" class="btn btn-danger">Delete</button>
-  //       </div>
-  //   </div>`;
-  // });
 });
 
 ///EDIT,DELETE///
@@ -116,5 +103,13 @@ peliculaCollection.addEventListener("click", (e) => {
           editPeliculaForm.innerHTML = "";
         });
     });
+  } else if (e.target.dataset.action === "delete") {
+    document.getElementById(`${e.target.dataset.id}`).remove();
+    fetch(`${apiPeliculas}/${e.target.dataset.id}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }).then((response) => response.json());
   }
 });
