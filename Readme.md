@@ -4,10 +4,6 @@
 
 ## Instalación
 
-- Instala en global el servidor de la Fake Api
+sudo npm install -g json-server
 
-  sudo npm install -g json-server
-
-- Ejecuta el json
-
-  json-server --watch peliculas.json
+json-server --watch peliculas.json
