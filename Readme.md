@@ -2,6 +2,8 @@
 
 https://drive.google.com/file/d/1gGptNVM7fecb4O7NeybL1XOOsJmeKFxm/view?usp=sharing
 
+![](name-of-favoritemovies.gif)
+
 Crea con Postman un crud a la Api de películas
 
 ## Instalación
