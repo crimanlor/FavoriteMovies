@@ -39,6 +39,6 @@ Para poner en funcionamiento y poder practicar con este proyecto solo necesitas 
 
 ---
 
-Gracias a Roger O., por impulsarme en cada reto y a nuestros profesores Sergi V. y Diego C. de la escuela digital FactoriaF5, por facilitarnos recursos para desarrollar nuestras habilidades como programadores.
+Gracias a [Roger Ortiz](https://github.com/rogerortiz7), por impulsarme en cada reto y a nuestros profesores [Sergi Virgili](https://github.com/Sergi-Virgili) y Diego Córdoba de la escuela digital FactoriaF5, por facilitarnos recursos para desarrollar nuestras habilidades como programadores.
 
 Con 💛 por Lorena C. 🐢
