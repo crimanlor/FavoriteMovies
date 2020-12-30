@@ -29,18 +29,16 @@ Para poner en funcionamiento y poder practicar con este proyecto solo necesitas 
 - Visual Studio
 - Google Chrome
 
-### Demo del proyecto :tw-1f3a5:
+### Demo del proyecto 🎬
 
 ---
 
 ![Favorite Movies Demo](favoritemovies.gif)
 
-### Agradecimientos :tw-1f381:
+### Agradecimientos 🎁
 
 ---
 
-Gracias a nuestros profesores Sergi V. y Diego C. de la escuela digital FactoriaF5 por facilitarnos material y recursos para desarrollar nuestras habilidades como programadores.
+Gracias a Roger O., por impulsarme en cada reto y a nuestros profesores Sergi V. y Diego C. de la escuela digital FactoriaF5, por facilitarnos recursos para desarrollar nuestras habilidades como programadores.
 
-Gracias a Roger O. por impulsarme en cada reto.
-
-Con :tw-1f49b: por Lorena C. :tw-1f40c:
+Con 💛 por Lorena C. 🐢
